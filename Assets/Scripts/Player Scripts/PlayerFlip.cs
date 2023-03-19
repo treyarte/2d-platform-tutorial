@@ -6,10 +6,16 @@ using UnityEngine.InputSystem;
 
 public class PlayerFlip : MonoBehaviour
 {
+    /// <summary>
+    /// Player horizontal input
+    /// </summary>
     private float _horizontal;
 
     private bool _isFacingRight;
 
+    /// <summary>
+    /// Player sprite
+    /// </summary>
     private SpriteRenderer _spriteRenderer;
 
     private void Awake()

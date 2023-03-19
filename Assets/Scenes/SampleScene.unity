@@ -1015,7 +1015,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ceb015c00aed074993d3d3b94c23372, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  groundLength: 0.62
+  groundLength: 0.53
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
