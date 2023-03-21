@@ -59,8 +59,6 @@ namespace Player_Scripts
         private bool _pressingJump;
         private bool _isJumping;
 
-        private bool _hasJumped;
-
         void Awake()
         {
             rb = GetComponent<Rigidbody2D>();
@@ -68,64 +66,27 @@ namespace Player_Scripts
             _defaultGravityScale = 1f;
         }
 
-
-
-        // Update is called once per frame
-        void Update()
-        {
-            SetGravityOnPlayer();
-
-            isGrounded = _groundChecker.GetIsGrounded();
-
-            if (jumpBuffer > 0)
-            {
-                if (_desiredJump)
-                {
-                    _jumpBufferCounter += Time.deltaTime;
-                    if (_jumpBufferCounter > jumpBuffer)
-                    {
-                        _desiredJump = false;
-                        _jumpBufferCounter = 0;
-                    }
-                
-                }            
-            }
+        public void OnJump(InputAction.CallbackContext context) {
+            //This function is called when one of the jump buttons (like space or the A button) is pressed.
         
-            //If we are not on the ground and not jump then we have stepped off an ledge
-            if (!_isJumping && !isGrounded)
-            {
-                _coyoteTimeCounter += Time.deltaTime;
+            //When we press the jump button, tell the script that we desire a jump.
+            //Also, use the started and canceled contexts to know if we're currently holding the button
+            if (context.started) {
+                _desiredJump = true;
+                _pressingJump = true;
             }
-            else
-            {
-                //If we touched the ground or jumped reset the timer
-                _coyoteTimeCounter = 0;
+
+            if (context.canceled) {
+                _pressingJump = false;
             }
         }
-
-        private void FixedUpdate()
-        {
-            _velocity = rb.velocity;
         
-            if (_desiredJump)
-            {
-                PerformJump();
-                rb.velocity = _velocity;
-            
-                //Skip gravity calculations this frame, so currentlyJumping doesn't turn off
-                //This makes sure you can't do the coyote time double jump bug
-                return;
-            }
-
-            CalculateGravity();
-        }
-
         private void SetGravityOnPlayer()
         {
             Vector2 newGravity = new Vector2(0, (-2 * jumpHeight) / (timeToJumpPeak * timeToJumpPeak));
             rb.gravityScale = (newGravity.y / Physics2D.gravity.y) * gravityMultiplier;
         }
-
+        
         /// <summary>
         /// Changes the character's gravity based on y direction
         /// </summary>
@@ -191,7 +152,7 @@ namespace Player_Scripts
             //But clamp the Y variable within the bounds of the speed limit, for the terminal velocity assist option
             rb.velocity = new Vector3(_velocity.x, Mathf.Clamp(_velocity.y, -fallSpeedLimit, 100));
         }
-
+        
         private void PerformJump()
         {
             //Create the jump, provided we are on the ground, in coyote time, or have a double jump available
@@ -207,7 +168,7 @@ namespace Player_Scripts
                 //Determine jump power
                 jumpSpeed = Mathf.Sqrt(-2f * Physics2D.gravity.y * rb.gravityScale * jumpHeight);
             
-                //If the player is moving up or down when she jumps (such as when doing a double jump), change the jumpSpeed;
+                //If the player is moving up or down when they jumps (such as when doing a double jump), change the jumpSpeed;
                 //This will ensure the jump is the exact same strength, no matter your velocity.
                 if (_velocity.y > 0f)
                 {
@@ -228,19 +189,57 @@ namespace Player_Scripts
                 _desiredJump = false;
             }
         }
-        public void OnJump(InputAction.CallbackContext context) {
-            //This function is called when one of the jump buttons (like space or the A button) is pressed.
-        
-            //When we press the jump button, tell the script that we desire a jump.
-            //Also, use the started and canceled contexts to know if we're currently holding the button
-            if (context.started) {
-                _desiredJump = true;
-                _pressingJump = true;
-            }
 
-            if (context.canceled) {
-                _pressingJump = false;
+        // Update is called once per frame
+        void Update()
+        {
+            SetGravityOnPlayer();
+
+            isGrounded = _groundChecker.GetIsGrounded();
+
+            if (jumpBuffer > 0)
+            {
+                if (_desiredJump)
+                {
+                    _jumpBufferCounter += Time.deltaTime;
+                    if (_jumpBufferCounter > jumpBuffer)
+                    {
+                        _desiredJump = false;
+                        _jumpBufferCounter = 0;
+                    }
+                
+                }            
+            }
+        
+            //If we are not on the ground and not jump then we have stepped off an ledge
+            if (!_isJumping && !isGrounded)
+            {
+                _coyoteTimeCounter += Time.deltaTime;
+            }
+            else
+            {
+                //If we touched the ground or jumped reset the timer
+                _coyoteTimeCounter = 0;
             }
         }
+
+        private void FixedUpdate()
+        {
+            
+            _velocity = rb.velocity;
+        
+            if (_desiredJump)
+            {
+                PerformJump();
+                rb.velocity = _velocity;
+            
+                //Skip gravity calculations this frame, so currentlyJumping doesn't turn off
+                //This makes sure you can't do the coyote time double jump bug
+                return;
+            }
+
+            CalculateGravity();
+        }
+
     }
 }
