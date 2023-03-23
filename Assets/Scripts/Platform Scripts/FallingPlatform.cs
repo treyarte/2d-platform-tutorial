@@ -1,5 +1,7 @@
 using System;
 using System.Collections;
+using Manager_Scrips;
+using Player_Scripts;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -8,14 +10,12 @@ namespace Platform_Scripts
 {
     public class FallingPlatform : MonoBehaviour
     {
-        [SerializeField] private Collider2D _collider2D;
         [SerializeField] private float destroyDelay = 1.4f;
-        [SerializeField] private float respawnDelay = 2.4f;
         [SerializeField] private Rigidbody2D rb;
-        [SerializeField] private bool _isDestroyed = false;
         [SerializeField]private SpawnFallingPlatform _spawnFallingPlat = null;
         private Vector3 _currentPos;
         private Quaternion _currentRot;
+        
         [SerializeField, Range(0, 1f)] 
         [Tooltip("The amount of delay we want before the plat form falls")]
         public float fallDelay;
@@ -40,25 +40,13 @@ namespace Platform_Scripts
         private IEnumerator Fall()
         {
             yield return new WaitForSeconds(fallDelay);
-            rb.bodyType = RigidbodyType2D.Dynamic;
+            rb.velocity += Physics2D.gravity;
             Destroy(gameObject, destroyDelay);
-            yield return new WaitForSeconds(destroyDelay);
-            _isDestroyed = true;
         }
 
-        private IEnumerator RestorePlatform()
-        {
-            
-            yield return new WaitForSeconds(respawnDelay);
-            rb.bodyType = RigidbodyType2D.Kinematic;
-            Instantiate(gameObject, _currentPos, _currentRot);
-            
-            _isDestroyed = false;
-        }
-    
         private void OnCollisionEnter2D(Collision2D col)
         {
-            if (col.gameObject.CompareTag("Player"))
+            if (CheckIfPlayerLandedOnPlatform(col))
             {
                 StartCoroutine(Fall());
             }
@@ -71,6 +59,29 @@ namespace Platform_Scripts
                 _spawnFallingPlat.RestoreFallingPlatform(_currentPos, _currentRot);
             }
         }
-        
+
+        /// <summary>
+        /// Check the collider for the player object and
+        /// get the playerGroundChecker script to see if the player is grounded.
+        /// If the player is grounded and the collider went off at the same time
+        /// that means the player is on the platform
+        /// </summary>
+        /// <param name="col"></param>
+        private bool CheckIfPlayerLandedOnPlatform(Collision2D col)
+        {
+            if (col.gameObject.CompareTag("Player") == false)
+            {
+                return false;
+            }
+            
+            var playerBody = col.gameObject.GetComponent<Rigidbody2D>();
+
+            if (playerBody == null)
+            {
+                return false;
+            }
+
+            return playerBody.velocity.y == 0;
+        }
     }
 }
