@@ -1,17 +1,20 @@
+using System;
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace Player_Scripts
 {
     public class PlayerDeath : MonoBehaviour
     {
-        [SerializeField] private GameObject player;
+        public static event Action PlayerDied;
 
-        public bool isPlayerDead = false;
-        
-        // Update is called once per frame
-        void Update()
+        private void OnDisable()
         {
-        
+            if (!this.gameObject.scene.isLoaded)
+            {
+                return;
+            }
+            PlayerDied?.Invoke();
         }
     }
 }

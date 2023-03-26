@@ -52,7 +52,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6c211c92f863c2f4ebde384eddbf2157, type: 2}
+  - {fileID: 2100000, guid: b445bb14a0f04564d8be48abb6b4f1c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -174,7 +174,7 @@ PlatformEffector2D:
   m_RotationalOffset: 0
   m_UseOneWay: 1
   m_UseOneWayGrouping: 0
-  m_SurfaceArc: 179.7
+  m_SurfaceArc: 182.72
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
