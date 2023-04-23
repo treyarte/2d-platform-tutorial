@@ -15,7 +15,7 @@ C:/Users/trey/Documents/Unity/2d movement
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60688
+56173
 Successfully changed project path to: C:/Users/trey/Documents/Unity/2d movement
 C:/Users/trey/Documents/Unity/2d movement
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/trey/Documents/Unity/2d movement
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [31872] Host "[IP] 172.24.160.1 [Port] 0 [Flags] 2 [Guid] 630686970 [EditorId] 630686970 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-HB7UM97H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [23480] Host "[IP] 172.24.160.1 [Port] 0 [Flags] 2 [Guid] 3329566857 [EditorId] 3329566857 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-HB7UM97H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [31872] Host "[IP] 172.24.160.1 [Port] 0 [Flags] 2 [Guid] 630686970 [EditorId] 630686970 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-HB7UM97H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23480] Host "[IP] 172.24.160.1 [Port] 0 [Flags] 2 [Guid] 3329566857 [EditorId] 3329566857 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-HB7UM97H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 171.59 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 119.24 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.21f1 (1b156197d683)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -67,92 +67,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010686 seconds.
+Registered in 0.008941 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 115.95 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 110.39 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.737 seconds
+- Completed reload, in  0.626 seconds
 Domain Reload Profiling:
-	ReloadAssembly (738ms)
-		BeginReloadAssembly (124ms)
+	ReloadAssembly (627ms)
+		BeginReloadAssembly (109ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (510ms)
-			LoadAssemblies (119ms)
+		EndReloadAssembly (428ms)
+			LoadAssemblies (105ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (109ms)
+			SetupTypeCache (83ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (321ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (278ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (116ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (135ms)
-				ProcessInitializeOnLoadMethodAttributes (58ms)
+				RefreshPlugins (110ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (120ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008667 seconds.
+Registered in 0.015847 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\trey\Documents\Unity\2d movement\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\trey\Documents\Unity\2d movement\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 110.78 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 114.20 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.453 seconds
+- Completed reload, in  1.300 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1454ms)
-		BeginReloadAssembly (131ms)
+	ReloadAssembly (1301ms)
+		BeginReloadAssembly (112ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1211ms)
-			LoadAssemblies (159ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1089ms)
+			LoadAssemblies (134ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (268ms)
+			SetupTypeCache (239ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (682ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (622ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (111ms)
-				BeforeProcessingInitializeOnLoad (123ms)
-				ProcessInitializeOnLoadAttributes (352ms)
-				ProcessInitializeOnLoadMethodAttributes (82ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				RefreshPlugins (114ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (303ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.22 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.27 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5862 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 57 unused Assets / (0.5 MB). Loaded Objects now: 6318.
-Memory consumption went from 232.7 MB to 232.2 MB.
-Total: 5.233400 ms (FindLiveObjects: 0.656200 ms CreateObjectMapping: 0.567100 ms MarkObjects: 3.693400 ms  DeleteObjects: 0.315300 ms)
+Memory consumption went from 232.8 MB to 232.3 MB.
+Total: 4.765000 ms (FindLiveObjects: 0.486000 ms CreateObjectMapping: 0.466400 ms MarkObjects: 3.508000 ms  DeleteObjects: 0.303900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,292 +166,565 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 130807.575296 seconds.
-  path: Assets/New Folder
-  artifactKey: Guid(e33034a55e01b7d4d95a45c82e642b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Folder using Guid(e33034a55e01b7d4d95a45c82e642b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c347197f4c90009094813ef2dc5985ed') in 0.017145 seconds 
+  Time since last request: 112563.525734 seconds.
+  path: Assets/Prefabs/Lava Animation.prefab
+  artifactKey: Guid(0b9542d4b1eb16444bd59db44c174fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lava Animation.prefab using Guid(0b9542d4b1eb16444bd59db44c174fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae28e44f5083528928e26672bd261d6') in 0.229409 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.637331 seconds.
-  path: Assets/Rock Roads Assets
-  artifactKey: Guid(e33034a55e01b7d4d95a45c82e642b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rock Roads Assets using Guid(e33034a55e01b7d4d95a45c82e642b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a097332e006d696a890a0a20ff63ae') in 0.007032 seconds 
+  Time since last request: 0.844525 seconds.
+  path: Assets/Prefabs/Health
+  artifactKey: Guid(43316978a028b7f4db943c12ebac658c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Health using Guid(43316978a028b7f4db943c12ebac658c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf37cb0382adf667efcd46572fb67d2f') in 0.006962 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.167303 seconds.
-  path: Assets/Rock Roads Assets/lava_platform.png
-  artifactKey: Guid(61175e0b3988b2545a81c1bbf08f1f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rock Roads Assets/lava_platform.png using Guid(61175e0b3988b2545a81c1bbf08f1f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73342ff4f0a106bbea76b839be15604') in 0.100422 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 282.599837 seconds.
-  path: Assets/Rock Roads Assets/lava_platform.png
-  artifactKey: Guid(61175e0b3988b2545a81c1bbf08f1f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rock Roads Assets/lava_platform.png using Guid(61175e0b3988b2545a81c1bbf08f1f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878bf31ca40ca6a38a465cad7929fe1b') in 0.012000 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.946781 seconds.
-  path: Assets/Rock Roads Assets/lava_platform.png
-  artifactKey: Guid(61175e0b3988b2545a81c1bbf08f1f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rock Roads Assets/lava_platform.png using Guid(61175e0b3988b2545a81c1bbf08f1f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2939cf1e3466773065889f4bd730eade') in 0.011154 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.663896 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Keyboard@3x.png
-  artifactKey: Guid(6191a40940a3e46899ecf82fa8389d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Keyboard@3x.png using Guid(6191a40940a3e46899ecf82fa8389d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f6792aa69c26dc48616149192449c8') in 0.017157 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.049478 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Keyboard.png
-  artifactKey: Guid(5a5b9538c3aaa4587856e68a93a92a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Keyboard.png using Guid(5a5b9538c3aaa4587856e68a93a92a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5d0098e120dc9cc0088ae3047788dc') in 0.016043 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.191305 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Joystick@3x.png
-  artifactKey: Guid(a4610f64a5a4e4625b1ddbd44b04c5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Joystick@3x.png using Guid(a4610f64a5a4e4625b1ddbd44b04c5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a7be5034569ca7bb06c85c76f6825a') in 0.017332 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.016260 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Joystick.png
-  artifactKey: Guid(c28849deb3e3b45c98965e7efd26f7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Joystick.png using Guid(c28849deb3e3b45c98965e7efd26f7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b439697117af7d37e375345399faf86') in 0.017939 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Interactive Binding@3x.png
-  artifactKey: Guid(cac8742b1b72b44699fd1663287ca47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Interactive Binding@3x.png using Guid(cac8742b1b72b44699fd1663287ca47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6686f8ddea5fb0f727ef01355eae591c') in 0.015784 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.158043 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/InputControl.png
-  artifactKey: Guid(ec85de66fa5b64dd984fdcc82f8f92b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/InputControl.png using Guid(ec85de66fa5b64dd984fdcc82f8f92b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55adf36f1c71c1882c4b527c5fda4f10') in 0.018992 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/InputSystemUIInputModule@64.png
-  artifactKey: Guid(3028dc075ba8c584d9bc7d1e0255e038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/InputSystemUIInputModule@64.png using Guid(3028dc075ba8c584d9bc7d1e0255e038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6becb116540342dca820dce99d4032a1') in 0.014491 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/InputAction.png
-  artifactKey: Guid(40265a896a0f341bb956e90c59025a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/InputAction.png using Guid(40265a896a0f341bb956e90c59025a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce0d5edf903ceb65bd1c7343bf614a8') in 0.021539 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/InputActionAsset.png
-  artifactKey: Guid(b025a2a0f9e554d1e88a93b5649dfc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/InputActionAsset.png using Guid(b025a2a0f9e554d1e88a93b5649dfc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909073b15efa6f1571e9902d29de4d7b') in 0.020546 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconmoved.png
-  artifactKey: Guid(8a6cca56e2b63344eb4769cd92d93ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconmoved.png using Guid(8a6cca56e2b63344eb4769cd92d93ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5399f17643d4c71941b38054d8133ba') in 0.021902 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/dotCyan.png
-  artifactKey: Guid(5b56cb1a6bd97f348b3a3b6f875aafd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/dotCyan.png using Guid(5b56cb1a6bd97f348b3a3b6f875aafd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbde0441ff775dc30c747526094ddff4') in 0.020069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconoutofsync.png
-  artifactKey: Guid(636d03a8834e3ed4cac3a1cb4b82deaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconoutofsync.png using Guid(636d03a8834e3ed4cac3a1cb4b82deaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc5334f7b8770447d3c8d68949d2e84') in 0.022761 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconlockedremoteoverlay@2x.png
-  artifactKey: Guid(f73a7d8758d7be04588b15637d94b5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconlockedremoteoverlay@2x.png using Guid(f73a7d8758d7be04588b15637d94b5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2294544fc84c8fd7d130af36e129b5') in 0.021774 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/character_Mode@4x.png
-  artifactKey: Guid(0ccc508108fa6ed4fa11b4a467d7f609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/character_Mode@4x.png using Guid(0ccc508108fa6ed4fa11b4a467d7f609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1055dde5e173e22e276702b4979551f5') in 0.021042 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@2x.png
-  artifactKey: Guid(bb5fa99d6e9434c9ebf101c956021ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@2x.png using Guid(bb5fa99d6e9434c9ebf101c956021ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a6754b5897c296df0c584b12b291ddb') in 0.019098 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackground.png
-  artifactKey: Guid(c4b66e31395c54087a2fbc13ae7e0f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackground.png using Guid(c4b66e31395c54087a2fbc13ae7e0f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1767aa8c1ac8c032ec542290af3e3e63') in 0.017768 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/Icons/Dark/d_Sprite Resolver@8x.png
-  artifactKey: Guid(fe71fcdfcbfcbda4f901f3a3e5f3075e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/Icons/Dark/d_Sprite Resolver@8x.png using Guid(fe71fcdfcbfcbda4f901f3a3e5f3075e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0aa0cd2ceb0909f954e39ee05be5ef') in 0.017706 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflictresolvedoverlay@2x.png
-  artifactKey: Guid(4a231ba0e81e63849a8f985c228e8acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflictresolvedoverlay@2x.png using Guid(4a231ba0e81e63849a8f985c228e8acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948d3d903a98561c88da9467630944ce') in 0.021156 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Sprite_Influence@3x.png
-  artifactKey: Guid(dd74e4fa4aa2947d6a14ab33d32d7c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Sprite_Influence@3x.png using Guid(dd74e4fa4aa2947d6a14ab33d32d7c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bff084f420977c3b0a6c68fe53771e5') in 0.020404 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Sprite_Influence.png
-  artifactKey: Guid(eca47b8e551b04a0e8adc931893c60f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Sprite_Influence.png using Guid(eca47b8e551b04a0e8adc931893c60f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4f94198470cc1d3a24f4caa34d9850') in 0.022619 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflictedoverlay.png
-  artifactKey: Guid(a892bcc7ae1871447926b3c44d158763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflictedoverlay.png using Guid(a892bcc7ae1871447926b3c44d158763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378059e2b90915ca07120bdec287698a') in 0.025254 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Gamepad@4x.png
-  artifactKey: Guid(7543bb6341c2140f292c8c852e7a3bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Gamepad@4x.png using Guid(7543bb6341c2140f292c8c852e7a3bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea6e865e93d13d94fdc0431bb187e4e') in 0.019991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Weight_Brush@4x.png
-  artifactKey: Guid(f68f6cf24545d2f41b27323ca2b06a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Weight_Brush@4x.png using Guid(f68f6cf24545d2f41b27323ca2b06a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95d7591d8caf9b11f9fbb7e8cc47121') in 0.023148 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Weight_Slider@3x.png
-  artifactKey: Guid(3120ec2beffde56499fe86f755fc25b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Weight_Slider@3x.png using Guid(3120ec2beffde56499fe86f755fc25b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942a640944845e83528c73e37ff91b6e') in 0.018756 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplasticnotifyconflict@2x.png
-  artifactKey: Guid(6e0a54826ffc3ee46b0aa3e1c1575a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplasticnotifyconflict@2x.png using Guid(6e0a54826ffc3ee46b0aa3e1c1575a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9ed65a2428db7f1bc7a2f7d6a2bb9e') in 0.019827 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/InputControl@4x.png
-  artifactKey: Guid(08c99f7c2a7fa410d8567323e32ad5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/InputControl@4x.png using Guid(08c99f7c2a7fa410d8567323e32ad5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e535d353e5d2794de7a8afce683f8210') in 0.018766 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflicted@2x.png
-  artifactKey: Guid(65f0e363b74cf5845ab8c3fbc14f39ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflicted@2x.png using Guid(65f0e363b74cf5845ab8c3fbc14f39ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff963e94e61336535e7ce84d9d26ec1') in 0.019744 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedlocaloverlay.png
-  artifactKey: Guid(4da274d970a82a943ae3979e7833f3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedlocaloverlay.png using Guid(4da274d970a82a943ae3979e7833f3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d06bcd2db4234a0d0acc1b6f70eac9') in 0.019201 seconds 
+  Time since last request: 4.806362 seconds.
+  path: Assets/Prefabs/Health/Heart Empty.prefab
+  artifactKey: Guid(43cdca5349c79c04ea987a116d306d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Health/Heart Empty.prefab using Guid(43cdca5349c79c04ea987a116d306d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1292cb424a377c35e32af9c3cdb35ca9') in 0.012617 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000035 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Weight_Slider@2x.png
-  artifactKey: Guid(b2aca1e4f59dad54785b6ffded66224a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Weight_Slider@2x.png using Guid(b2aca1e4f59dad54785b6ffded66224a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3c5bc35fa11b67f6440c4da4ee6d40') in 0.038200 seconds 
+  path: Assets/Prefabs/Health/Heart Half.prefab
+  artifactKey: Guid(aacb974e1cdb7154b8c54771879ea78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Health/Heart Half.prefab using Guid(aacb974e1cdb7154b8c54771879ea78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253352af36789522f0e5460ee6cb11b1') in 0.013633 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedlocaloverlay@2x.png
-  artifactKey: Guid(92b204cca46037444ab18ba6701f86f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedlocaloverlay@2x.png using Guid(92b204cca46037444ab18ba6701f86f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9ca9090a8b67737c82ccc7719affd4') in 0.030239 seconds 
+  Time since last request: 140.286804 seconds.
+  path: Assets/Prefabs/Health/Heart Full.prefab
+  artifactKey: Guid(d69e9e1dc7ffe344eba7be8f5882f4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Health/Heart Full.prefab using Guid(d69e9e1dc7ffe344eba7be8f5882f4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a349cb62d7c30ecffdd998988a6fb8') in 0.010473 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006520 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\trey\Documents\Unity\2d movement\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\trey\Documents\Unity\2d movement\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.113 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1114ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (880ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (223ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (443ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (264ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5723 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (495.0 KB). Loaded Objects now: 6385.
+Memory consumption went from 233.8 MB to 233.3 MB.
+Total: 4.128500 ms (FindLiveObjects: 0.584300 ms CreateObjectMapping: 0.283100 ms MarkObjects: 2.998300 ms  DeleteObjects: 0.262000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflicted.png
-  artifactKey: Guid(881798b77426a8f47b533dcc4767e9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflicted.png using Guid(881798b77426a8f47b533dcc4767e9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4cc20e3a5774480183b736542e9f08') in 0.031671 seconds 
+  Time since last request: 541.786120 seconds.
+  path: Assets/HONETi
+  artifactKey: Guid(fed6bd48ac0ba264c8aa122b968f7b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi using Guid(fed6bd48ac0ba264c8aa122b968f7b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30357c89bb3a53999d92293b76577251') in 0.022422 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Sprite_Influence@2x.png
-  artifactKey: Guid(0f26b0f71c3344e8b8838eb64eb7d9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Sprite_Influence@2x.png using Guid(0f26b0f71c3344e8b8838eb64eb7d9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b065dc5b1daffc5a8cd6ea03cf522ed') in 0.024696 seconds 
+  Time since last request: 1.074199 seconds.
+  path: Assets/HONETi/fullscreen_gui
+  artifactKey: Guid(1e40cfcc8e8c42640bcfc016afd0ea20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui using Guid(1e40cfcc8e8c42640bcfc016afd0ea20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0b07789bcca2ad1425e4068b29decb') in 0.009024 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Dpad.png
-  artifactKey: Guid(e76f0489d4db34a2fbc3532e07f2848a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Dpad.png using Guid(e76f0489d4db34a2fbc3532e07f2848a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988a8e402c120ba8aaf5a09b29463504') in 0.021198 seconds 
+  Time since last request: 5.105563 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons
+  artifactKey: Guid(e8c4238e33a73ed46bb39ec5f429f76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons using Guid(e8c4238e33a73ed46bb39ec5f429f76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cfd5332366f3be0574bb52c86ba8e9b') in 0.006589 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconoutofsyncoverlay@2x.png
-  artifactKey: Guid(3728580c149181a44b359e89f6edacae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconoutofsyncoverlay@2x.png using Guid(3728580c149181a44b359e89f6edacae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8270ebe54a5a3ce71d4242ab14a9eb2b') in 0.024900 seconds 
+  Time since last request: 1.649564 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32
+  artifactKey: Guid(381ef21095e8d2e4abcf9b6de4999144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32 using Guid(381ef21095e8d2e4abcf9b6de4999144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29acbb6a5e18144a8d4dec8b49f3831d') in 0.006838 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Generate_Geometry.png
-  artifactKey: Guid(41842964c48860f46b45e7b3d5986e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Generate_Geometry.png using Guid(41842964c48860f46b45e7b3d5986e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00926733fc0c538a79f4da7b92e6af9') in 0.018732 seconds 
+  Time since last request: 0.134197 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/air.png
+  artifactKey: Guid(a051a0323f44f3f4182367f4b850071e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/air.png using Guid(a051a0323f44f3f4182367f4b850071e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785f80d451c269fe506038b7d2992bcb') in 0.065888 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/Icons/Dark/d_Sprite Resolver@4x.png
-  artifactKey: Guid(9356ffd19a4b4964fa58567286d7ff01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/Icons/Dark/d_Sprite Resolver@4x.png using Guid(9356ffd19a4b4964fa58567286d7ff01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec9182a6186a7847551f466fe48b7b3') in 0.017066 seconds 
+  Time since last request: 0.000039 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/lock_02.png
+  artifactKey: Guid(29ce4c36a88fe514b89590af63107447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/lock_02.png using Guid(29ce4c36a88fe514b89590af63107447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a9d6a122b13d7f5a7c7b5e230a4829') in 0.017576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/helmet.png
+  artifactKey: Guid(45c2751764b1cc443a9473fe80012823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/helmet.png using Guid(45c2751764b1cc443a9473fe80012823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78da1517d217b93ba54f41d7821d3537') in 0.018148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/checkmark_01.png
+  artifactKey: Guid(004d2df548fdc0e4b8ac19d9f13bb26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/checkmark_01.png using Guid(004d2df548fdc0e4b8ac19d9f13bb26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf2a10822f080f36eda053d5aeb837c') in 0.021151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/gem.png
+  artifactKey: Guid(b9d88fc48ed916e41895ad49b3bb70fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/gem.png using Guid(b9d88fc48ed916e41895ad49b3bb70fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d1e0ee0a9a5901989915141ed0f06a') in 0.019894 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/personal/actionTreeBackgroundWithoutBorder.png
-  artifactKey: Guid(cf632ed80bf1f46c980de6b1b8b903ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/personal/actionTreeBackgroundWithoutBorder.png using Guid(cf632ed80bf1f46c980de6b1b8b903ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba4f88451bf5100e9e2816454b0f1d2') in 0.019642 seconds 
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/double_ax.png
+  artifactKey: Guid(990880eedd54c12498c75ce0cc2c0808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/double_ax.png using Guid(990880eedd54c12498c75ce0cc2c0808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e632fab2bc78bfaee4df158efe01fe1') in 0.027128 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000030 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackgroundWithoutBorder.png
-  artifactKey: Guid(943deaaee9c9347e0a455aa208526c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackgroundWithoutBorder.png using Guid(943deaaee9c9347e0a455aa208526c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb435bc5772e5273785c81b725600ef') in 0.018967 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Interactive Binding@2x.png
-  artifactKey: Guid(2027b97fd12d842d7a3169c784502a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Interactive Binding@2x.png using Guid(2027b97fd12d842d7a3169c784502a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740d8207232a733d4f5f78371dd9b3c9') in 0.020650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedremote.png
-  artifactKey: Guid(23e66f7264c74424889342127f229577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedremote.png using Guid(23e66f7264c74424889342127f229577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad200208350be4ff6cea12b6106b7ba') in 0.021897 seconds 
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/backpack.png
+  artifactKey: Guid(b2c1b4c7b32efdb47a0e5865ecf4744a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/backpack.png using Guid(b2c1b4c7b32efdb47a0e5865ecf4744a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d8d9d08cc9591eeb20e79bd248fa26') in 0.020407 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflictedoverlay@2x.png
-  artifactKey: Guid(a3ced8f7044b9de4787602a9e9b20ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflictedoverlay@2x.png using Guid(a3ced8f7044b9de4787602a9e9b20ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb62808c1ad8ce332cbe6ff2274bb9b3') in 0.019865 seconds 
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/belt.png
+  artifactKey: Guid(5222d0317bebc3f49ae807071df07061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/belt.png using Guid(5222d0317bebc3f49ae807071df07061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba96844ff79bf52806fe30ea1a11945') in 0.021554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/key.png
+  artifactKey: Guid(013af9e19f39ba34e9944da623bf4b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/key.png using Guid(013af9e19f39ba34e9944da623bf4b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5513c2d788082b8bf7123f3497dd2257') in 0.023661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/home.png
+  artifactKey: Guid(25e216c72d3f0be44a10696c2127b834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/home.png using Guid(25e216c72d3f0be44a10696c2127b834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9bd5e964c753ab56a5ceb4bfc084fa1') in 0.026337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/location.png
+  artifactKey: Guid(01ac2544a050e9a47ac0d7403d4c2020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/location.png using Guid(01ac2544a050e9a47ac0d7403d4c2020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88c077515c11f9774597f3ff9e53342') in 0.021511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/basket.png
+  artifactKey: Guid(6309a6659b143fe4596d9ef6ddace46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/basket.png using Guid(6309a6659b143fe4596d9ef6ddace46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a2a85a4af59e7e072a29a93df0aada') in 0.023623 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000042 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/ChevronDown@4x.png
-  artifactKey: Guid(d1acbe0a708dc40dc80254764e67ecfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/ChevronDown@4x.png using Guid(d1acbe0a708dc40dc80254764e67ecfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489db01257775ca5c65e521f8ac7a646') in 0.021120 seconds 
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/arrow_right_02.png
+  artifactKey: Guid(f173d89d5b37b28458b83d0b2b79db92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/arrow_right_02.png using Guid(f173d89d5b37b28458b83d0b2b79db92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '237f2dd119572a3963c163a272ceec9e') in 0.035750 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.281436 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c23e514d24f6b65fe96946cd87fc526') in 0.006594 seconds 
+  Time since last request: 0.000030 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/gloves.png
+  artifactKey: Guid(edd976e33d7aa944d9502c7a77a53e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/gloves.png using Guid(edd976e33d7aa944d9502c7a77a53e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9723e7eab6bd99b55ef90092caddea4') in 0.025794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/candy.png
+  artifactKey: Guid(db4e36cdf949029439dae00141788df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/candy.png using Guid(db4e36cdf949029439dae00141788df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63561cabfa1b4956a5075c6ed876c221') in 0.023411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/message_closed.png
+  artifactKey: Guid(c2ddec522d4ddfe4d8d00b5d12f801d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/message_closed.png using Guid(c2ddec522d4ddfe4d8d00b5d12f801d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09174c6dbeeec95014842e92a3ded9d') in 0.024963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/hammer.png
+  artifactKey: Guid(de19d58ecb06e544e89da743ec8b86c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/hammer.png using Guid(de19d58ecb06e544e89da743ec8b86c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38c201c851a9914d303392131722cf5') in 0.022627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/leaf.png
+  artifactKey: Guid(43b32c9d8fc20e84ba1f5235c89eae62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/leaf.png using Guid(43b32c9d8fc20e84ba1f5235c89eae62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff727f4c34bf70410a51ee474f91896') in 0.026501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/icon.png
+  artifactKey: Guid(c0f5e639c1de94e4288a127ba177c6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/icon.png using Guid(c0f5e639c1de94e4288a127ba177c6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3da457c7770df77e648cdb8e7f7fd9') in 0.023653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/bow.png
+  artifactKey: Guid(b5cbbf037fccdca478953e41e70a3def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/bow.png using Guid(b5cbbf037fccdca478953e41e70a3def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd285fb9b69b26003b3ac7f96d6d4e759') in 0.024404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/fire.png
+  artifactKey: Guid(80f08e6dc93989f4da4491867aa60e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/fire.png using Guid(80f08e6dc93989f4da4491867aa60e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c3d1798d01181872257ccaca822ae9') in 0.024050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/cold.png
+  artifactKey: Guid(421b8f0860dd575448c7c8444d6d4a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/cold.png using Guid(421b8f0860dd575448c7c8444d6d4a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd595c3a421e3ffd94662571d8b71918d') in 0.022875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/chest_armor.png
+  artifactKey: Guid(65f894990cd89884fa2ae7e53ccd8489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/chest_armor.png using Guid(65f894990cd89884fa2ae7e53ccd8489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395653da6edd819fb3cc45377406b48c') in 0.036475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/menu.png
+  artifactKey: Guid(9addef950228bd84b9355dd46fc42bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/menu.png using Guid(9addef950228bd84b9355dd46fc42bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a6e52f0d78607425d2ebb64d20826e') in 0.022844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/cup.png
+  artifactKey: Guid(ff56c789b2f3f764a824ebb63701fe87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/cup.png using Guid(ff56c789b2f3f764a824ebb63701fe87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d3413caf3b5c32404b223d339d3966') in 0.024200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/cross.png
+  artifactKey: Guid(6a0b42d10c423664d8dd82f66fafc57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/cross.png using Guid(6a0b42d10c423664d8dd82f66fafc57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a521845311a2063f028920e272f4b6') in 0.021657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/bones.png
+  artifactKey: Guid(a1814bd9a020e534f88edd6fe0b0261f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/bones.png using Guid(a1814bd9a020e534f88edd6fe0b0261f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c843c89ffbe8f7db55b35d1cbe1c87c') in 0.022084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/message.png
+  artifactKey: Guid(88e095f3b296fd9408d18da174910deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/message.png using Guid(88e095f3b296fd9408d18da174910deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '173246f837beb8894d0312fab82b5809') in 0.021883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/dynamite.png
+  artifactKey: Guid(36323a0bf93867f43a5fdfc36e5af518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/dynamite.png using Guid(36323a0bf93867f43a5fdfc36e5af518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5704cdcd12f5af92284c7a47f195397') in 0.025103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/bin.png
+  artifactKey: Guid(3b6c95a0d69cf9e45bd51bf216f0a67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/bin.png using Guid(3b6c95a0d69cf9e45bd51bf216f0a67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf1d15180b34849335ae0796471d79b') in 0.022492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/goggles.png
+  artifactKey: Guid(da382e301b1d14e4d9009b2743ec5217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/goggles.png using Guid(da382e301b1d14e4d9009b2743ec5217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1facca6079d7bf44fd6574b2bc26558a') in 0.018787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/heart.png
+  artifactKey: Guid(5a9951b21a7e93a4a9e64e8ea42e1246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/heart.png using Guid(5a9951b21a7e93a4a9e64e8ea42e1246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a2456f51f4431f06d0e2357084db49') in 0.020510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/amulet.png
+  artifactKey: Guid(5ea2cc5736fb7b04fbc62d43af0b35a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/amulet.png using Guid(5ea2cc5736fb7b04fbc62d43af0b35a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2693762bdfd102e0b3cbdf19991ae5') in 0.020542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.346728 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/message_heart.png
+  artifactKey: Guid(fd237a34034cedc4595f752f78e4aa19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/message_heart.png using Guid(fd237a34034cedc4595f752f78e4aa19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0646abc38260066599e8fa08da6342') in 0.017308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/potion_03.png
+  artifactKey: Guid(49e86d9ebc4691e4daa5a5d979edd118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/potion_03.png using Guid(49e86d9ebc4691e4daa5a5d979edd118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e399b367a6f146b57231ab4a4e3bc80') in 0.018829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/minus.png
+  artifactKey: Guid(77c47b828a0aa804b8970f751bcbaf93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/minus.png using Guid(77c47b828a0aa804b8970f751bcbaf93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60695d9589151e8f1e68b6ea31599bf8') in 0.019759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/potion_cold.png
+  artifactKey: Guid(e73c058361f118f459cb0948cd6ee6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/potion_cold.png using Guid(e73c058361f118f459cb0948cd6ee6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca842d4b317651def7492720717340d') in 0.020088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/share.png
+  artifactKey: Guid(531124d3664d03244bb09a793c869231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/share.png using Guid(531124d3664d03244bb09a793c869231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f05119df7ebcc47f1080bf99a36b9f') in 0.023070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/shield_fire.png
+  artifactKey: Guid(d221e03ab89d8c24d86515bb0fd764c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/shield_fire.png using Guid(d221e03ab89d8c24d86515bb0fd764c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30babfca4f6b8319a0237c92e1e3679') in 0.019312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/potion_flash.png
+  artifactKey: Guid(b8e32515c1ab7f24e98a4e75c617f10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/potion_flash.png using Guid(b8e32515c1ab7f24e98a4e75c617f10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '683aae09de4c079de9503d4b4761112a') in 0.019303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/message_star.png
+  artifactKey: Guid(3d86b60e6d7705f41a385c29619d37a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/message_star.png using Guid(3d86b60e6d7705f41a385c29619d37a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b46629f04e08f71d7baf673489ad292') in 0.020147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/potion_strength.png
+  artifactKey: Guid(9f0bb081f3903654a8963370c29e80bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/potion_strength.png using Guid(9f0bb081f3903654a8963370c29e80bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83ae14f0dc9f9a200768e2a492f6020') in 0.018874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/plus.png
+  artifactKey: Guid(f0b851addf12eb549ad7622cccd543f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/plus.png using Guid(f0b851addf12eb549ad7622cccd543f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aad6ab7c48d6d9decbe99f882a9b82d') in 0.018313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/potion_06.png
+  artifactKey: Guid(f421fe00a18e5454c84e000881a74f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/potion_06.png using Guid(f421fe00a18e5454c84e000881a74f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36bc246acec82cb894c52b6185c87da7') in 0.021589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/scroll.png
+  artifactKey: Guid(ece608431e3c85d4880f8d035015535d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/scroll.png using Guid(ece608431e3c85d4880f8d035015535d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e58ff57b94523f6f65a112fa53a16b9') in 0.021875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/repeat.png
+  artifactKey: Guid(6b92ae4f153e8674090dec8b8d0a7183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/repeat.png using Guid(6b92ae4f153e8674090dec8b8d0a7183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7632dea9d9638a56242a6290462efb') in 0.020020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/radio.png
+  artifactKey: Guid(a24711820cacaa249ba7a1a9e119b3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/radio.png using Guid(a24711820cacaa249ba7a1a9e119b3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf6fb1afa5a7fb0401e057b58e3a4f3') in 0.021043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/potion_water.png
+  artifactKey: Guid(9a27bbccc4e8a9e4f93660471a12e6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/potion_water.png using Guid(9a27bbccc4e8a9e4f93660471a12e6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58475c763a42cde5a5c24df814559aa8') in 0.019460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/potion_defence.png
+  artifactKey: Guid(c5e0b5307b11c984189fa95876ad3f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/potion_defence.png using Guid(c5e0b5307b11c984189fa95876ad3f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d032f1749c347a5841e7ab6aed43c42') in 0.021323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/potion_04.png
+  artifactKey: Guid(2d7505d59ca238c4ca2555d1cba96737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/potion_04.png using Guid(2d7505d59ca238c4ca2555d1cba96737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e909f8d81c4ac0248805e5e3a40fe4fa') in 0.018906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/pill.png
+  artifactKey: Guid(b9144a1810785a24cb5e7cee77b0e54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/pill.png using Guid(b9144a1810785a24cb5e7cee77b0e54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5179dca6ba67985dba4bd551570a022d') in 0.018188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/ring.png
+  artifactKey: Guid(c81d4b549a150c140abe5de2f0ada104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/ring.png using Guid(c81d4b549a150c140abe5de2f0ada104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235e0778f86860552310c65b88c59235') in 0.018478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.852310 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/skull.png
+  artifactKey: Guid(e4a50ed8f1f19704c893822f2cc74a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/skull.png using Guid(e4a50ed8f1f19704c893822f2cc74a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632231c268f307a9d0ac201181ef8fa5') in 0.017874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/trousers.png
+  artifactKey: Guid(865d54b867da97048bb387ce02de76d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/trousers.png using Guid(865d54b867da97048bb387ce02de76d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7737bc036523804f39730ae19f5f185c') in 0.019338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/wrist_guards.png
+  artifactKey: Guid(44856b8f12493ef4fb4278212bb97f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/wrist_guards.png using Guid(44856b8f12493ef4fb4278212bb97f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8549d43d230b3f19b48b262f6c9e0bf3') in 0.019624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/venus.png
+  artifactKey: Guid(6b4a6c1982cc878409d56ba1ecd214dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/venus.png using Guid(6b4a6c1982cc878409d56ba1ecd214dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc5cc03b1abac585f873c263be3a45a') in 0.018323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/stats.png
+  artifactKey: Guid(40fc12f39da44104baf581faa4b941ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/stats.png using Guid(40fc12f39da44104baf581faa4b941ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e02d51ef82bac64f8ca309d0d149f44') in 0.018880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/x.png
+  artifactKey: Guid(1fa781af9ca4bb94d9acf78d7779020d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/x.png using Guid(1fa781af9ca4bb94d9acf78d7779020d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960bf189309ed7ad5e82d376f6640232') in 0.016308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/speaker_low.png
+  artifactKey: Guid(3b2908779fd6f1441b2420c5de5290e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/speaker_low.png using Guid(3b2908779fd6f1441b2420c5de5290e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26134b5ed5b81497ea6ea07a4a23b38') in 0.020509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/tiles.png
+  artifactKey: Guid(9ea83a40ea93fa640a209ffbe8088565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/tiles.png using Guid(9ea83a40ea93fa640a209ffbe8088565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4cf3e78123e2d02e132562dfc40fad') in 0.020077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/user.png
+  artifactKey: Guid(2ce7ca7ebe196224b996f318a8bb82be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/user.png using Guid(2ce7ca7ebe196224b996f318a8bb82be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b996207a102a86b429d011785fcab656') in 0.019697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HONETi/fullscreen_gui/icons/32x32/strength.png
+  artifactKey: Guid(3bdd7c738b0d1f644970ef013f2d9a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/icons/32x32/strength.png using Guid(3bdd7c738b0d1f644970ef013f2d9a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '706d3439b1d7e9b53e808dcb90361358') in 0.019055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.795352 seconds.
+  path: Assets/HONETi/fullscreen_gui/bars/fill_blue.png
+  artifactKey: Guid(abee3605264764c4e901ad04ff10272f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/bars/fill_blue.png using Guid(abee3605264764c4e901ad04ff10272f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f57cbb4fb4ac49050a20fcbf3a3bc355') in 0.021349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HONETi/fullscreen_gui/bars/yellow_gradient_bar_fill.png
+  artifactKey: Guid(7b8545263db04224a87ebe82ab0d7f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/bars/yellow_gradient_bar_fill.png using Guid(7b8545263db04224a87ebe82ab0d7f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c19f10fbb8c0b9bf575bc321f000339') in 0.022426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HONETi/fullscreen_gui/bars/purple_gradient_bar_fill.png
+  artifactKey: Guid(0c2c69944f9169d4db8d63140ceac5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/bars/purple_gradient_bar_fill.png using Guid(0c2c69944f9169d4db8d63140ceac5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9370a795ec03777e56de87870879ca') in 0.023675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/HONETi/fullscreen_gui/bars/white_bar_fill.png
+  artifactKey: Guid(fb830448e7bf81e41a7fdb4b188da76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/bars/white_bar_fill.png using Guid(fb830448e7bf81e41a7fdb4b188da76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8f82770df85029bdb3740086517aee') in 0.021807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.833022 seconds.
+  path: Assets/HONETi/fullscreen_gui/character/ground.png
+  artifactKey: Guid(b222cb01c56496e4db0e3f30d871bd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/character/ground.png using Guid(b222cb01c56496e4db0e3f30d871bd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f428fbce6c6795940f27e2c60954e98c') in 0.059958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.118300 seconds.
+  path: Assets/HONETi/fullscreen_gui/panels/badge_60px.png
+  artifactKey: Guid(97cfc0083fb10be4c8c26d0b010e41a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/panels/badge_60px.png using Guid(97cfc0083fb10be4c8c26d0b010e41a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639ecbc1ccab80f69c36f53f639852b1') in 0.025320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/HONETi/fullscreen_gui/panels/panel_stroke_3px.png
+  artifactKey: Guid(d300fbcb7c3de1a45bebf20aa7a7e782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/panels/panel_stroke_3px.png using Guid(d300fbcb7c3de1a45bebf20aa7a7e782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7db23b8067eb65909f73470c988b68c') in 0.029176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HONETi/fullscreen_gui/panels/corner_arrow.png
+  artifactKey: Guid(ef72c0636ee036b44a022680a59f957e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/panels/corner_arrow.png using Guid(ef72c0636ee036b44a022680a59f957e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea07b977f4d72c3744a777810e533cc') in 0.019056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/HONETi/fullscreen_gui/panels/inventory_item_slot.png
+  artifactKey: Guid(962b7a63b9538c74dabf9f96146d2280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/panels/inventory_item_slot.png using Guid(962b7a63b9538c74dabf9f96146d2280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3be3bbb079b8adb9d03fce2b33ffae') in 0.023561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HONETi/fullscreen_gui/panels/gradient_panel_2.png
+  artifactKey: Guid(14621262c0b3f4b4599a40a20c0cf955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/panels/gradient_panel_2.png using Guid(14621262c0b3f4b4599a40a20c0cf955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df29a2e24a4f271bbc11e610b25f89d2') in 0.037061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/HONETi/fullscreen_gui/panels/stroke_circle_250.png
+  artifactKey: Guid(cf8aba112306e5b4da453f9283655b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/panels/stroke_circle_250.png using Guid(cf8aba112306e5b4da453f9283655b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfafd88f3913285f164eb9917ba01eef') in 0.034125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/HONETi/fullscreen_gui/panels/popup_background.png
+  artifactKey: Guid(0aaf142492c9b414c8d6560a6b64d657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/panels/popup_background.png using Guid(0aaf142492c9b414c8d6560a6b64d657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4340de216e2851c98b6c7485ca717a3') in 0.132012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.660627 seconds.
+  path: Assets/HONETi/fullscreen_gui/buttons/btn_stroke_down.png
+  artifactKey: Guid(40b3d569bc2210f43ad821f152ad9da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/fullscreen_gui/buttons/btn_stroke_down.png using Guid(40b3d569bc2210f43ad821f152ad9da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8708022ea2be27663bc258921c84c7') in 0.026943 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
