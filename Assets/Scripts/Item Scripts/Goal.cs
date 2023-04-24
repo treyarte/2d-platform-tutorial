@@ -11,7 +11,6 @@ namespace Item_Scripts
         {
             if (col.CompareTag("Player"))
             {
-                Debug.Log("I Ran");
                 CompleteLevel?.Invoke();        
             }
         }
