@@ -1,5 +1,8 @@
 using System;
+using System.Collections;
 using Cinemachine;
+using Enums;
+using Extensions;
 using UnityEngine;
 
 namespace Player_Scripts
@@ -14,6 +17,11 @@ namespace Player_Scripts
 
         [SerializeField] private CinemachineVirtualCamera Vcam;
 
+        [SerializeField] private PlayerState playerState = PlayerState.Normal;
+
+        [SerializeField] private float playerHurtTime = 2.5f;
+        [SerializeField] private float playerInvincibleTime = 2.5f;
+        
         /// <summary>
         /// The last position the player have saved at. The start of a level, a checkpoint, etc
         /// </summary>
@@ -27,11 +35,13 @@ namespace Player_Scripts
         private void OnEnable()
         {
             PlayerDeath.PlayerDied += RespawnPlayer;
+            DamagePlayer.DoDamage += OnPlayerDamage;
         }
 
         private void OnDisable()
         {
             PlayerDeath.PlayerDied -= RespawnPlayer;
+            DamagePlayer.DoDamage -= OnPlayerDamage;
         }
 
         /// <summary>
@@ -46,6 +56,29 @@ namespace Player_Scripts
             playerPrefab.transform.position = PlayerLastSavedPos;
             Vcam.Follow = playerPrefab.transform;
         }
-        
+
+        /// <summary>
+        /// When the player is damaged the player state is updated
+        /// to hurt then to invincible then to normal
+        /// </summary>
+        private void OnPlayerDamage(float damageAmount)
+        {
+            playerState = PlayerState.Hurt;
+            StartCoroutine(TogglePlayerInvincibilityState());
+            StartCoroutine(TogglePlayerInvincibilityState());
+
+        }
+
+        /// <summary>
+        /// Updates the player state 
+        /// </summary>
+        /// <param name="state"></param>
+        private IEnumerator TogglePlayerInvincibilityState()
+        {
+            yield return new WaitForSeconds(playerHurtTime);
+            playerState = PlayerState.Invincible;
+            yield return new WaitForSeconds(playerInvincibleTime);
+            playerState = PlayerState.Normal;
+        }
     }
 }

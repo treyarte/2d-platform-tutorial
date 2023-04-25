@@ -422,7 +422,7 @@ MonoBehaviour:
     m_Bottom: 0
   m_ChildAlignment: 0
   m_Spacing: 0
-  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 1
   m_ChildControlHeight: 1
@@ -82186,15 +82186,17 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 762871083}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5e6ec6e2b2714fb185f021d2b3ff5c8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Hearts: []
+  HeartContainer: {fileID: 170418343}
   HeartFull: {fileID: 6913523606785546402, guid: d8cebf03b43f33148bd390e87026cb75, type: 3}
   HeartHalf: {fileID: 6463003250669045232, guid: 9920076ae75c02a498c86b7f471b4c73, type: 3}
   HeartEmpty: {fileID: 4478899605828281893, guid: f4ffd9f650d690a499481c59955a5ff6, type: 3}
+  healthManager: {fileID: 1661172165}
 --- !u!4 &765113228 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 227711257748345060, guid: 6801704424196c442a62554b18c4d58f, type: 3}
@@ -83487,7 +83489,7 @@ Tilemap:
       - {fileID: 21300000, guid: bde710e7375bc044d91581b0d977efb3, type: 3}
       - {fileID: 21300000, guid: 09db928d0bcfdc247adefa2892959372, type: 3}
       - {fileID: 21300000, guid: 5ed1f0406e697844186fd219ee0893fc, type: 3}
-      m_AnimationSpeed: 5.8500004
+      m_AnimationSpeed: 5.85
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 139, y: -2, z: 0}
@@ -83515,7 +83517,7 @@ Tilemap:
       - {fileID: 21300000, guid: bde710e7375bc044d91581b0d977efb3, type: 3}
       - {fileID: 21300000, guid: 09db928d0bcfdc247adefa2892959372, type: 3}
       - {fileID: 21300000, guid: 5ed1f0406e697844186fd219ee0893fc, type: 3}
-      m_AnimationSpeed: 5.85
+      m_AnimationSpeed: 5.8500004
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 186, y: -2, z: 0}
@@ -83866,6 +83868,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 6743904361777104522, guid: cd4d39b79a6381a4aae37153a2b35747, type: 3}
   Vcam: {fileID: 921430185}
+  playerState: 2
+  playerHurtTime: 2.5
+  playerInvincibleTime: 2.5
   PlayerLastSavedPos: {x: 0, y: 0, z: 0}
 --- !u!4 &1532318393
 Transform:
