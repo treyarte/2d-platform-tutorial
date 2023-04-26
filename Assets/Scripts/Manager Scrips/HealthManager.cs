@@ -20,6 +20,14 @@ namespace Manager_Scrips
             DamagePlayer.DoDamage -= SubtractHealth;
         }
 
+        private void AddHealth(float healAmount)
+        {
+            if (healAmount)
+            {
+                
+            }
+        }
+
         private void SubtractHealth(float damageAmount)
         {
             if (Health > 0)
