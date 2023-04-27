@@ -12,19 +12,27 @@ namespace Manager_Scrips
         private void OnEnable()
         {
             DamagePlayer.DoDamage += SubtractHealth;
+            HealPlayer.Heal += AddHealth;
         }
 
 
         private void OnDisable()
         {
             DamagePlayer.DoDamage -= SubtractHealth;
+            HealPlayer.Heal -= AddHealth;
         }
 
         private void AddHealth(float healAmount)
         {
-            if (healAmount)
+            var newHealth = healAmount + Health;
+
+            if (newHealth > MaxHealth)
             {
-                
+                Health = MaxHealth;
+            }
+            else
+            {
+                Health = newHealth;
             }
         }
 

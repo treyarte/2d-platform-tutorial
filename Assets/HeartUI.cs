@@ -82,6 +82,15 @@ public class HeartUI : MonoBehaviour
             return heartCount;
         }
 
+        private void AddHearts(float healAmount)
+        {
+            var health = healthManager.Health;
+
+            var leftOver = healAmount % 1;
+            
+            for()
+        }
+
         /// <summary>
         /// Destroys a heart at the passed in index and
         /// and create a new heart
