@@ -20,6 +20,7 @@ public class HeartUI : MonoBehaviour
         {
             _heartContainer = this.GetComponent<Transform>();
             DamagePlayer.DoDamage += RemoveHeart;
+            HealPlayer.Heal += AddHearts;
             InitializeHearts();
         }
 
@@ -27,6 +28,7 @@ public class HeartUI : MonoBehaviour
         private void OnDisable()
         {
             DamagePlayer.DoDamage -= RemoveHeart;
+            HealPlayer.Heal -= AddHearts;
         }
         
         /// <summary>
@@ -84,11 +86,36 @@ public class HeartUI : MonoBehaviour
 
         private void AddHearts(float healAmount)
         {
+            var maxHealth = healthManager.MaxHealth;
+
             var health = healthManager.Health;
 
-            var leftOver = healAmount % 1;
+            List<Transform> hearts = new List<Transform>();
+
+            if (health == maxHealth)
+            {
+                return;
+            }
             
-            for()
+            while (health > 0 && health <= maxHealth)
+            {
+                if (health == .5f)
+                {
+                    hearts.Add(heartHalf);
+                    break;
+                }
+
+                hearts.Add(heartFull);
+                health -= 1;
+            }
+
+            ClearChildren(_heartContainer);
+
+            foreach (var heart in hearts)
+            {
+                Instantiate(heart, _heartContainer.transform, true);
+            }
+
         }
 
         /// <summary>

@@ -83428,7 +83428,7 @@ Tilemap:
       - {fileID: 21300000, guid: bde710e7375bc044d91581b0d977efb3, type: 3}
       - {fileID: 21300000, guid: 09db928d0bcfdc247adefa2892959372, type: 3}
       - {fileID: 21300000, guid: 5ed1f0406e697844186fd219ee0893fc, type: 3}
-      m_AnimationSpeed: 5.8499994
+      m_AnimationSpeed: 5.85
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 91, y: -2, z: 0}
@@ -83470,7 +83470,7 @@ Tilemap:
       - {fileID: 21300000, guid: bde710e7375bc044d91581b0d977efb3, type: 3}
       - {fileID: 21300000, guid: 09db928d0bcfdc247adefa2892959372, type: 3}
       - {fileID: 21300000, guid: 5ed1f0406e697844186fd219ee0893fc, type: 3}
-      m_AnimationSpeed: 5.8499994
+      m_AnimationSpeed: 5.85
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 163, y: -2, z: 0}
@@ -83498,7 +83498,7 @@ Tilemap:
       - {fileID: 21300000, guid: bde710e7375bc044d91581b0d977efb3, type: 3}
       - {fileID: 21300000, guid: 09db928d0bcfdc247adefa2892959372, type: 3}
       - {fileID: 21300000, guid: 5ed1f0406e697844186fd219ee0893fc, type: 3}
-      m_AnimationSpeed: 5.8500004
+      m_AnimationSpeed: 5.85
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 210, y: -2, z: 0}
@@ -83540,7 +83540,7 @@ Tilemap:
       - {fileID: 21300000, guid: bde710e7375bc044d91581b0d977efb3, type: 3}
       - {fileID: 21300000, guid: 09db928d0bcfdc247adefa2892959372, type: 3}
       - {fileID: 21300000, guid: 5ed1f0406e697844186fd219ee0893fc, type: 3}
-      m_AnimationSpeed: 5.8500004
+      m_AnimationSpeed: 5.85
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   m_TileAssetArray:
@@ -83646,6 +83646,7 @@ GameObject:
   - component: {fileID: 1317460899}
   - component: {fileID: 1317460898}
   - component: {fileID: 1317460897}
+  - component: {fileID: 1317460900}
   m_Layer: 0
   m_Name: Apple
   m_TagString: Untagged
@@ -83665,7 +83666,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77022745d94764241acc4472ba1eb766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 0
+  healAmount: 1.5
 --- !u!212 &1317460898
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -83733,6 +83734,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1317460900
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317460896}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.04466653, y: 0.008121014}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.7157593, y: 0.7563648}
+  m_EdgeRadius: 0
 --- !u!1001 &1326271034
 PrefabInstance:
   m_ObjectHideFlags: 0
