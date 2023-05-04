@@ -90,32 +90,29 @@ public class HeartUI : MonoBehaviour
 
             var health = healthManager.Health;
 
-            List<Transform> hearts = new List<Transform>();
-
-            if (health == maxHealth)
+            foreach (Transform child in _heartContainer.transform)
             {
-                return;
-            }
-            
-            while (health > 0 && health <= maxHealth)
-            {
-                if (health == .5f)
+                if (healAmount <= 0)
                 {
-                    hearts.Add(heartHalf);
                     break;
                 }
+                
+                var heartTypeObj = child.gameObject.GetComponent<HeartType>();
+                
+                if (heartTypeObj.heartType == HeartTypeEnum.HeartFull)
+                {
+                    continue;
+                }
 
-                hearts.Add(heartFull);
-                health -= 1;
+                var index = child.GetSiblingIndex();
+
+                var heartToAdd = healAmount < 1 ? heartHalf : heartFull;
+                
+                DestroyAndAddHeart(index, heartToAdd);
+
+                healAmount -= 1f;
+
             }
-
-            ClearChildren(_heartContainer);
-
-            foreach (var heart in hearts)
-            {
-                Instantiate(heart, _heartContainer.transform, true);
-            }
-
         }
 
         /// <summary>

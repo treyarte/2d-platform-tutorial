@@ -1243,7 +1243,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.025935173, y: -0.20748207}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1254,7 +1254,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.6714866, y: 0.58503586}
   m_EdgeRadius: 0
 --- !u!114 &530632307
 MonoBehaviour:
@@ -83358,7 +83358,7 @@ Tilemap:
       - {fileID: 21300000, guid: bde710e7375bc044d91581b0d977efb3, type: 3}
       - {fileID: 21300000, guid: 09db928d0bcfdc247adefa2892959372, type: 3}
       - {fileID: 21300000, guid: 5ed1f0406e697844186fd219ee0893fc, type: 3}
-      m_AnimationSpeed: 5.85
+      m_AnimationSpeed: 5.8500004
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -28, y: -2, z: 0}
@@ -83372,7 +83372,7 @@ Tilemap:
       - {fileID: 21300000, guid: bde710e7375bc044d91581b0d977efb3, type: 3}
       - {fileID: 21300000, guid: 09db928d0bcfdc247adefa2892959372, type: 3}
       - {fileID: 21300000, guid: 5ed1f0406e697844186fd219ee0893fc, type: 3}
-      m_AnimationSpeed: 5.85
+      m_AnimationSpeed: 5.8500004
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -4, y: -2, z: 0}
@@ -83400,7 +83400,7 @@ Tilemap:
       - {fileID: 21300000, guid: bde710e7375bc044d91581b0d977efb3, type: 3}
       - {fileID: 21300000, guid: 09db928d0bcfdc247adefa2892959372, type: 3}
       - {fileID: 21300000, guid: 5ed1f0406e697844186fd219ee0893fc, type: 3}
-      m_AnimationSpeed: 5.85
+      m_AnimationSpeed: 5.8500004
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 44, y: -2, z: 0}
@@ -83428,7 +83428,7 @@ Tilemap:
       - {fileID: 21300000, guid: bde710e7375bc044d91581b0d977efb3, type: 3}
       - {fileID: 21300000, guid: 09db928d0bcfdc247adefa2892959372, type: 3}
       - {fileID: 21300000, guid: 5ed1f0406e697844186fd219ee0893fc, type: 3}
-      m_AnimationSpeed: 5.85
+      m_AnimationSpeed: 5.8500004
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 91, y: -2, z: 0}
@@ -83456,7 +83456,7 @@ Tilemap:
       - {fileID: 21300000, guid: bde710e7375bc044d91581b0d977efb3, type: 3}
       - {fileID: 21300000, guid: 09db928d0bcfdc247adefa2892959372, type: 3}
       - {fileID: 21300000, guid: 5ed1f0406e697844186fd219ee0893fc, type: 3}
-      m_AnimationSpeed: 5.85
+      m_AnimationSpeed: 5.8500004
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 139, y: -2, z: 0}
@@ -83512,7 +83512,7 @@ Tilemap:
       - {fileID: 21300000, guid: bde710e7375bc044d91581b0d977efb3, type: 3}
       - {fileID: 21300000, guid: 09db928d0bcfdc247adefa2892959372, type: 3}
       - {fileID: 21300000, guid: 5ed1f0406e697844186fd219ee0893fc, type: 3}
-      m_AnimationSpeed: 5.8500004
+      m_AnimationSpeed: 5.85
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 234, y: -2, z: 0}
@@ -83666,7 +83666,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77022745d94764241acc4472ba1eb766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 1.5
+  healAmount: 1
 --- !u!212 &1317460898
 SpriteRenderer:
   m_ObjectHideFlags: 0
