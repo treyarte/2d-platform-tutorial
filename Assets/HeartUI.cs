@@ -90,29 +90,69 @@ public class HeartUI : MonoBehaviour
 
             var health = healthManager.Health;
 
-            foreach (Transform child in _heartContainer.transform)
+            if (health >= maxHealth)
             {
-                if (healAmount <= 0)
-                {
-                    break;
-                }
-                
-                var heartTypeObj = child.gameObject.GetComponent<HeartType>();
-                
-                if (heartTypeObj.heartType == HeartTypeEnum.HeartFull)
-                {
-                    continue;
-                }
-
-                var index = child.GetSiblingIndex();
-
-                var heartToAdd = healAmount < 1 ? heartHalf : heartFull;
-                
-                DestroyAndAddHeart(index, heartToAdd);
-
-                healAmount -= 1f;
-
+                return;
             }
+
+            List<Transform> listOfNewHearts = new List<Transform>();
+
+            var healthAdd = health + healAmount;
+
+            var amountOfHeartsToAdd = healthAdd > maxHealth ? maxHealth : healthAdd;
+
+            while (amountOfHeartsToAdd > 0)
+            {
+                var heartToAdd = amountOfHeartsToAdd < 1 ? heartHalf : heartFull;
+                
+                listOfNewHearts.Add(heartToAdd);
+
+                amountOfHeartsToAdd -= 1;
+            }
+
+            while (listOfNewHearts.Count < maxHealth)
+            {
+                listOfNewHearts.Add(heartEmpty);
+            }
+            
+            ClearChildren(_heartContainer);
+
+            foreach (var heart in listOfNewHearts)
+            {
+                Instantiate(heart, _heartContainer.transform, true);
+            }
+            
+            // foreach (Transform child in _heartContainer.transform)
+            // {
+            //     if (healAmount <= 0)
+            //     {
+            //         break;
+            //     }
+            //     
+            //     var heartTypeObj = child.gameObject.GetComponent<HeartType>();
+            //     
+            //     if (heartTypeObj.heartType == HeartTypeEnum.HeartFull)
+            //     {
+            //         continue;
+            //     }
+            //
+            //     var index = child.GetSiblingIndex();
+            //
+            //     var heartToAdd = healAmount < 1 ? heartHalf : heartFull;
+            //     
+            //     if (heartTypeObj.heartType == HeartTypeEnum.HeartHalf)
+            //     {
+            //         heartToAdd = heartFull;
+            //     }
+            //     
+            //     DestroyAndAddHeart(index, heartToAdd);
+            //
+            //     var r = _heartContainer.GetChild(index );
+            //     r.SetSiblingIndex(index + 1);
+            //     heartToAdd.transform.SetSiblingIndex(index + 1);
+            //
+            //     healAmount -= 1f;
+            // }
         }
 
         /// <summary>
@@ -123,8 +163,13 @@ public class HeartUI : MonoBehaviour
         /// <param name="heartToAdd"></param>
         private void DestroyAndAddHeart(int heartToDestroyIndex, Transform heartToAdd)
         {
-            Destroy(_heartContainer.GetChild(heartToDestroyIndex).gameObject);
+            var heartToRemove = _heartContainer.GetChild(heartToDestroyIndex).transform;
+            //detaching from parent so it wont interfere with the new heart
+            heartToRemove.SetParent(null); 
+            
+            Destroy(heartToRemove.gameObject);
             Instantiate(heartToAdd, _heartContainer.transform, true);
+
         }
  
         /// <summary>
