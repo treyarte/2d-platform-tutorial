@@ -77,6 +77,28 @@
                     "isPartOfComposite": true
                 },
                 {
+                    "name": "negative",
+                    "id": "a8bf6757-26d8-4706-bb51-2a9dbc282a66",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "0e906fe4-489c-41fa-93a9-9996a05fdff6",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
                     "name": "D-Pad",
                     "id": "209d1efb-d67e-4590-83e0-845062072501",
                     "path": "1DAxis",
